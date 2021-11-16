@@ -1,0 +1,161 @@
+.home-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1280px;
+    background-color: white;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+    background: url(imagens/banner.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 36px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+#frase-banner {
+    width: 30%;
+    margin-left: 5%;
+    line-height: 1.5;
+}
+
+.quem-somos {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 91%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#img-quem-somos {
+    background: url(imagens/quem-somos.jpg) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    width: 40%;
+    margin-left: 2%;
+    opacity: 80%;
+}
+
+.quem-somos div {
+    font-family: 'Nunito Sans',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.subtitulo-quem-somos-index {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    width: 61%;
+    padding: 20px 0px;
+    opacity: 0.7;
+}
+
+.texto-subtitulo-index {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 61%;
+    padding: 20px 0px;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+
+.link-subtitulo-index {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    width: 61%;
+    padding: 20px 0px;
+    border: solid 1px rgb(38, 38, 38);
+    border-radius: 10px;
+    background-color: rgb(38, 38, 38);
+    margin-top: 30px;
+}
+
+.link-subtitulo-index a {
+    text-decoration: none;
+    color: white;
+}
+
+.para-dar-aquele-trato {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.para-dar-aquele-trato div {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+#img-para-dar-aquele-trato {
+    background: url(imagens/para-dar-aquele-trato.png) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    width: 40%;
+    margin-right: 2%;
+    opacity: 80%;
+}
+
+.subtitulo-index {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    width: 61%;
+    padding: 20px 0px;
+    opacity: 0.7;
+}
+
+.texto-lista-subtitulo-index {
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5;
+    width: 61%;
+    list-style-type: disc;
+    padding: 20px 0px;
+    opacity: 0.7;
+}
+
+.tenho-uma-barbearia {
+    width: 100%;
+    height: 500px;
+    background-color: black;
+    opacity: 91%;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.tenho-uma-barbearia div {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+}
+
+#img-tenho-uma-barbearia {
+    background: url(imagens/tenho-uma-barbearia.jpg) no-repeat center center;
+    background-size: cover;
+    height: 450px;
+    width: 40%;
+    margin-left: 2%;
+    opacity: 80%;
+}

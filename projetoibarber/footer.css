@@ -1,0 +1,63 @@
+footer {
+    background-color: black;
+    height: 220px;
+    color: white;
+    font-family: 'Nunito Sans',sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 96%;
+    max-width: 1280px;
+    /* padding: 0 2%; */
+    justify-content: space-evenly;
+    border-top: solid rgb(78, 78, 78) 1px;
+    box-sizing: border-box;
+}
+
+.footer-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-nav {
+    width: 30%;
+}
+
+.footer-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.logo-footer {
+    background: url(imagens/logo-ibarber-2.png) no-repeat center center;
+    background-size:contain;
+    height: 100px;
+    width: 30%
+
+}
+
+.social-media {
+    width: 30%;
+}
+
+.social-media ul{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.social-media ul li {
+    padding: 20px;
+}
+
+.footer-address-copyright {
+    font-size: 10px;
+    width: 100%;
+    text-align: center;
+}
