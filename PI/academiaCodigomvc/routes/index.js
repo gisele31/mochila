@@ -1,9 +1,10 @@
 var express = require('express');
 var router = express.Router();
-
+var {loguin} = require ('../controllers/index');
 /* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', );
-});
+router.get('/', loguin);
+
+
 
 module.exports = router;
+

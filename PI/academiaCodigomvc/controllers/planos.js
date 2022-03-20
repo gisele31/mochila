@@ -1,6 +1,6 @@
 
 function plano(req, res, next) {
-    res.render('planos.ejs');
+    res.render('planos.ejs')
   }
 
   
@@ -8,8 +8,6 @@ function plano(req, res, next) {
 
 
   module.exports = {
-    plano
-
-
+    plano,
 
   }

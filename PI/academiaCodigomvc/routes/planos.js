@@ -1,9 +1,11 @@
 var express = require('express');
 var router = express.Router();
-var { } = require('../controllers/users');
+var {plano} = require('../controllers/planos');
 
 /* GET users listing. */
-router.get('/',plano);
+router.get('/', plano);
   
 
 module.exports = router;
+
+
