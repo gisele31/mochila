@@ -52,6 +52,7 @@ a {
 /* Seção */
 .main-page{
     display: flex ;
+    margin: 60px;
 }
 .main-page .form-container{
     margin: auto;
@@ -103,7 +104,7 @@ a {
 
 .main-page .form-container .redefine-senha {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
 
 }
 
